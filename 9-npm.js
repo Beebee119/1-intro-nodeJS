@@ -33,4 +33,12 @@ console.log(items);
 console.log(flatten);
 
 // initiate repo di github
-// janganlupa gitignore node_modules
+// janganlupa .gitignore node_modules
+// git add .
+// git commit -m "1-intro"
+// tambahin remote dengan git remote add origin <url repo>
+// git push -u origin master
+
+// Dapat dilihat pada github bahwa node_modules tidak ada (karena tidak dipush)
+// untuk menginstall dependencies nya, kita dapat menjalankan command npm install
+// bisa dilakukan karena ada file package.json
