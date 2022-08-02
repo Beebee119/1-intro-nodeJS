@@ -1,0 +1,1 @@
+Here is the result async: this is first txt, this is second txt
