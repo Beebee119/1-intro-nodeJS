@@ -6,6 +6,7 @@ const secondFilePath = path.resolve(__dirname, 'content','second.txt')
 const resultFilePath = path.resolve(__dirname, 'content','result-async.txt')
 
 // read first.txt asynchronously
+console.log("Start task");
 fs.readFile(firstFilePath, 'utf-8', (err, res) => {
     if (err) {
         console.log(err);
@@ -28,5 +29,6 @@ fs.readFile(firstFilePath, 'utf-8', (err, res) => {
         })
     })
 })
+console.log("Start next task");
 
 // Disini kita menggunakan callback. Code nya jadi berantakan. Nanti bisa belajar caranya menggunakan async await

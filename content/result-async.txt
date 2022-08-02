@@ -1,1 +1,1 @@
-Here is the result async: this is first txt, this is second txt
+More cool ways to writeFile guys: this is first txt, this is second txt
